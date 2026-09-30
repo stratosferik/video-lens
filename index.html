@@ -731,6 +731,42 @@
     #help-modal { border-color: var(--brand); border-radius: 4px; }
     #help-modal a { color: var(--brand); }
     .help-key { background: var(--brand-soft); color: var(--brand); }
+
+    /* Footer */
+    #site-footer {
+      max-width: 1400px;
+      margin: 24px auto 0;
+      padding: 24px 24px 40px;
+      border-top: 1px solid var(--line);
+      font-size: 13px;
+      line-height: 1.6;
+      color: var(--ink-muted);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    #site-footer .footer-curator {
+      font-size: 15px;
+      color: var(--ink);
+    }
+
+    #site-footer .footer-curator strong {
+      font-weight: 500;
+      color: var(--brand);
+    }
+
+    #site-footer a {
+      color: var(--brand);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    #site-footer a:hover { text-decoration-thickness: 2px; }
+
+    @media (max-width: 640px) {
+      #site-footer { padding: 20px 16px 32px; }
+    }
   </style>
 </head>
 <body>
@@ -804,7 +840,13 @@
   <div class="loading">Loading reports…</div>
 </main>
 
-<script>window.__MANIFEST__ = {"generated": "2026-09-30T08:51:22Z", "count": 2, "reports": [{"videoId": "Zn9NZ-r1-C4", "title": "Context is now the product: Product leadership when software can build itself | Karri Saarinen", "channel": "Lenny's Podcast", "duration": "17 min", "publishDate": "Sep 29 2026", "generationDate": "2026-09-30", "summary": "Linear's Karri Saarinen argues that AI tools keep getting more capable, but it is far from clear that teams are making better products or getting better themselves. Building a product has always produced two things, the product and the learning, and automating execution risks cutting teams off from…", "tags": ["product", "ai", "leadership", "craft"], "keywords": ["Don't become a software factory", "Making products produces two things: the product and the learning", "Great products come from great teams' accumulated context", "Automate the repeatable, low-learning work", "Use AI for what it can teach you, not only what it can execute", "Quality Wednesday: everyone finds and fixes one quality defect a week", "Feature roasts: open, raw critique of new features", "Intuition is trained, not magic"], "filename": "reports/2026-09-30-101844-video-lens_Zn9NZ-r1-C4_context_is_now_the_product_product_leadership_when_software_.html", "agentModel": "claude-opus-5-5", "generatedAt": "2026-09-30T08:18:44Z", "durationSeconds": 70}, {"videoId": "GLvFTMtw4Jk", "title": "How to scale intent, quality, and artistry with Al | Katie Dill (Stripe)", "channel": "Lenny's Podcast", "duration": "21 min", "publishDate": "Sep 25 2026", "generationDate": "2026-09-30", "summary": "Katie Dill argues that the AI building boom risks repeating the post-WWII building boom: a style copied again and again with less and less thought, leaving generic 'zombie UI' that ignores users and context. Her fix is four practices: have a point of view, build your standards into the tools that…", "tags": ["design", "ai", "product", "craft"], "keywords": ["Three watch points of the AI building boom", "Have a point of view, or AI will pick one for you", "Encode standards into the machine: design systems should scale intent, not just consistency", "Refuse to confuse done with good", "56 iterations: AI widens what you can try, and human judgment finishes the job", "Unleash creativity: chats, charts and CLIs aren't the peak of interface design"], "filename": "reports/2026-09-30-100622-video-lens_GLvFTMtw4Jk_how_to_scale_intent_quality_and_artistry_with_al_katie_dill_.html", "agentModel": "claude-opus-5-5", "generatedAt": "2026-09-30T08:06:22Z", "durationSeconds": 69}]};</script>
+<footer id="site-footer">
+  <p class="footer-curator">Curated by <strong>Eric Haïdara</strong></p>
+  <p class="footer-credit">Summaries generated with <a href="https://github.com/kar2phi/video-lens" target="_blank" rel="noopener noreferrer">video-lens</a> — thanks to <a href="https://github.com/kar2phi" target="_blank" rel="noopener noreferrer">kar2phi</a> for building and open-sourcing it.</p>
+  <p class="footer-updated" id="last-updated" hidden></p>
+</footer>
+
+<script>window.__MANIFEST__ = {"generated": "2026-09-30T08:55:37Z", "count": 2, "reports": [{"videoId": "Zn9NZ-r1-C4", "title": "Context is now the product: Product leadership when software can build itself | Karri Saarinen", "channel": "Lenny's Podcast", "duration": "17 min", "publishDate": "Sep 29 2026", "generationDate": "2026-09-30", "summary": "Linear's Karri Saarinen argues that AI tools keep getting more capable, but it is far from clear that teams are making better products or getting better themselves. Building a product has always produced two things, the product and the learning, and automating execution risks cutting teams off from…", "tags": ["product", "ai", "leadership", "craft"], "keywords": ["Don't become a software factory", "Making products produces two things: the product and the learning", "Great products come from great teams' accumulated context", "Automate the repeatable, low-learning work", "Use AI for what it can teach you, not only what it can execute", "Quality Wednesday: everyone finds and fixes one quality defect a week", "Feature roasts: open, raw critique of new features", "Intuition is trained, not magic"], "filename": "reports/2026-09-30-101844-video-lens_Zn9NZ-r1-C4_context_is_now_the_product_product_leadership_when_software_.html", "agentModel": "claude-opus-5-5", "generatedAt": "2026-09-30T08:18:44Z", "durationSeconds": 70}, {"videoId": "GLvFTMtw4Jk", "title": "How to scale intent, quality, and artistry with Al | Katie Dill (Stripe)", "channel": "Lenny's Podcast", "duration": "21 min", "publishDate": "Sep 25 2026", "generationDate": "2026-09-30", "summary": "Katie Dill argues that the AI building boom risks repeating the post-WWII building boom: a style copied again and again with less and less thought, leaving generic 'zombie UI' that ignores users and context. Her fix is four practices: have a point of view, build your standards into the tools that…", "tags": ["design", "ai", "product", "craft"], "keywords": ["Three watch points of the AI building boom", "Have a point of view, or AI will pick one for you", "Encode standards into the machine: design systems should scale intent, not just consistency", "Refuse to confuse done with good", "56 iterations: AI widens what you can try, and human judgment finishes the job", "Unleash creativity: chats, charts and CLIs aren't the peak of interface design"], "filename": "reports/2026-09-30-100622-video-lens_GLvFTMtw4Jk_how_to_scale_intent_quality_and_artistry_with_al_katie_dill_.html", "agentModel": "claude-opus-5-5", "generatedAt": "2026-09-30T08:06:22Z", "durationSeconds": 69}]};</script>
 <script>
 (function () {
   'use strict';
@@ -865,7 +907,31 @@
   }
 
   // ── Init ───────────────────────────────────────────────────────────────────
+  // "Last updated" = when the newest report was generated, so it moves only when
+  // a video is added (a rebuild with no new reports leaves it alone).
+  function renderLastUpdated() {
+    const el = document.getElementById('last-updated');
+    if (!el) return;
+    let latest = '';
+    allReports.forEach(function (r) {
+      const d = r.generatedAt || r.generationDate || '';
+      if (d > latest) latest = d;
+    });
+    if (!latest) return;
+    const date = new Date(latest.length === 10 ? latest + 'T12:00:00Z' : latest);
+    if (isNaN(date)) return;
+    const label = date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+    el.innerHTML = '';
+    el.append('Last updated ');
+    const time = document.createElement('time');
+    time.dateTime = latest.slice(0, 10);
+    time.textContent = label;
+    el.appendChild(time);
+    el.hidden = false;
+  }
+
   function init() {
+    renderLastUpdated();
     // Default order: newest first
     allReports.sort(function (a, b) {
       const da = a.generationDate || '0000-00-00';
