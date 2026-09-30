@@ -1,7 +1,93 @@
 {
-  "generated": "2026-09-30T08:57:20Z",
-  "count": 2,
+  "generated": "2026-09-30T10:39:55Z",
+  "count": 5,
   "reports": [
+    {
+      "videoId": "5yJYLrbvOYY",
+      "title": "How Design Moves Revenue, Retention, and Market Share at Skyscanner",
+      "channel": "Hatch Conference",
+      "duration": "27 min",
+      "publishDate": "Nov 18 2025",
+      "generationDate": "2026-09-30",
+      "summary": "Gavin O'Carroll, head of product design at Skyscanner, argues that external studies like the HBR and McKinsey reports won't convince stakeholders — they need internal proof tied to the three metrics they care about most: retention, market share, and revenue. He lays out a practical three-step…",
+      "tags": [
+        "design",
+        "product",
+        "leadership",
+        "metrics"
+      ],
+      "keywords": [
+        "Stakeholders need internal proof, not industry studies",
+        "User Retention Sentiment (URS) gives retention an insight layer",
+        "Diagnostic attributes become submetrics that teams own",
+        "Market Monitor's funnel yields brand relevance and product-market fit",
+        "Preference strongly correlates with market share",
+        "Reframe design quality as design consistency, split into three layers",
+        "Audit, prioritise together, ship as experiments, add up the uplift",
+        "Stylistic fixes earned about a third of the total"
+      ],
+      "filename": "reports/2026-09-30-123055-video-lens_5yJYLrbvOYY_how_design_moves_revenue_retention_and_market_share_at_skysc.html",
+      "agentModel": "claude-opus-5-5",
+      "generatedAt": "2026-09-30T10:30:55Z",
+      "durationSeconds": 73
+    },
+    {
+      "videoId": "cxCBFqIti-s",
+      "title": "The Courage to Design - Bob Baxley",
+      "channel": "Hatch Conference",
+      "duration": "28 min",
+      "publishDate": "Sep 28 2026",
+      "generationDate": "2026-09-30",
+      "summary": "Bob Baxley argues that design sits almost at the far end of the spectrum from structured to unstructured problems, and that wrapping it in process, fragmentation and formula is an attempt to tame something that should stay wild. What design needs instead is courage, which he says you can't simply…",
+      "tags": [
+        "design",
+        "leadership",
+        "craft"
+      ],
+      "keywords": [
+        "Design is a wild problem, not a tame one",
+        "Courage = curiosity + vulnerability + conviction, braided",
+        "Curiosity about coworkers: the life-story offsite",
+        "Vulnerability: design in public through a weekly Loom",
+        "Conviction: stop delivering options, make the call",
+        "Design tenants beat design principles",
+        "ThoughtSpot's three tenants, spread quietly",
+        "Don't tame the beast"
+      ],
+      "filename": "reports/2026-09-30-122122-video-lens_cxCBFqIti-s_the_courage_to_design_bob_baxley.html",
+      "agentModel": "claude-opus-5-5",
+      "generatedAt": "2026-09-30T10:21:22Z",
+      "durationSeconds": 80
+    },
+    {
+      "videoId": "KyOMQJUxQ28",
+      "title": "Cam Worboys: How AI is Redefining the Role of UX and Product Designers",
+      "channel": "Hatch Conference",
+      "duration": "19 min",
+      "publishDate": "Sep 24 2025",
+      "generationDate": "2026-09-30",
+      "summary": "Cam Worboys, Head of Product Design at Cash App, argues that when AI makes almost anything buildable in minutes, the question is no longer what we can make but what we should make. Designers move from making to choosing: create fast, edit slow, and lead with taste and a bold point of view instead…",
+      "tags": [
+        "design",
+        "ai",
+        "product",
+        "craft"
+      ],
+      "keywords": [
+        "Abundance creates a demand for discernment",
+        "The designer's role shifts from making to choosing",
+        "Create fast, edit slow",
+        "A three-step curation method: delete, amplify, narrate",
+        "Taste is strategy; get off the fence",
+        "AI has a house style — the probabilistic middle",
+        "The outlier wins through a human vision the technology enables",
+        "Cash App's opinionated design, even when it breaks \"good design\" rules"
+      ],
+      "filename": "reports/2026-09-30-121412-video-lens_KyOMQJUxQ28_cam_worboys_how_ai_is_redefining_the_role_of_ux_and_product_.html",
+      "agentModel": "claude-opus-5-5",
+      "generatedAt": "2026-09-30T10:14:12Z",
+      "durationSeconds": 67
+    },
     {
       "videoId": "Zn9NZ-r1-C4",
       "title": "Context is now the product: Product leadership when software can build itself | Karri Saarinen",
