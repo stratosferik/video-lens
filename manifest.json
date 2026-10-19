@@ -1,7 +1,39 @@
 {
-  "generated": "2026-09-30T10:39:55Z",
-  "count": 5,
+  "generated": "2026-10-19T20:18:02Z",
+  "count": 6,
   "reports": [
+    {
+      "videoId": "8odhmX32w2M",
+      "title": "How Notion's Design Team Makes Great Products Quickly",
+      "channel": "Hatch Conference",
+      "duration": "31 min",
+      "publishDate": "Oct 19 2026",
+      "generationDate": "2026-10-19",
+      "summary": "Randy, who leads design at Notion, argues that speed and quality are not a trade-off but reinforce each other: making good things quickly builds momentum, which creates faster learning and improvement cycles. He walks through four lenses of quality (craft, culture, product, and tools/process) and…",
+      "tags": [
+        "design",
+        "product",
+        "craft",
+        "leadership",
+        "ai"
+      ],
+      "keywords": [
+        "Momentum begets momentum",
+        "Design should add momentum, not drag",
+        "Smaller, flatter teams stay close to the work",
+        "Craft = judgment and taste + skill and technique + habit and ritual",
+        "Culture quality is a precondition for speed",
+        "The paper-cuts backlog becomes irrelevant",
+        "Thin features can ship in days of spare minutes",
+        "Speed exposes process gaps that become learning",
+        "Code is the source of truth for the design system",
+        "Speed is powerful with direction, dangerous without it"
+      ],
+      "filename": "reports/2026-10-19-220208-video-lens_8odhmX32w2M_how_notion_s_design_team_makes_great_products_quickly.html",
+      "agentModel": "claude-sonnet-5-5",
+      "generatedAt": "2026-10-19T20:02:08Z",
+      "durationSeconds": 62
+    },
     {
       "videoId": "5yJYLrbvOYY",
       "title": "How Design Moves Revenue, Retention, and Market Share at Skyscanner",
